@@ -1,0 +1,40 @@
+article {
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+section {
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: auto;
+    height: 100%;
+    margin: 50px;
+    background-color: white;
+}
+
+.specs {
+    width: 50%;
+    height: 100%;
+}
+
+.phone_photo {
+    margin: 30px;
+    width: 80%;
+}
+
+hr {
+    width: 100%;
+    box-shadow: 0 0px 5px rgba(38, 92, 94, 0.2);    
+}
+
+.details {
+    color: rgba(58, 58, 58, 0.637);
+}

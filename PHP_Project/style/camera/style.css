@@ -1,0 +1,34 @@
+section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#photos {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+.photo {
+    transition: 1s; 
+   }
+   .photo:hover {
+    transform: scale(1.2); 
+   }
+
+hr {
+    width: 100%;
+    box-shadow: 0 0px 10px rgba(38, 92, 94, 0.2);    
+}
